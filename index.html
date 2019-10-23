@@ -1,46 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
-	<head>
-		<meta charset="UTF-8">
-		<title>Задание к 15 уроку</title>
-		<link rel="stylesheet" href="css/style.css">
-	</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap&subset=cyrillic"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+  </head>
 
-	<body>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__logo wow bounceInLeft">Видео-ролики для бизнеса
+          в Казани</div>
+        <div class="header__contacts wow bounceInRight">
+          <a href="88439999999" class="header__phone">8 (843) 999-99-99</a>
+          <a href="" class="header__btn wow pulse delay-2s infinite">Заказать звонок</a>
+        </div>
+      </header>
+      <section class="slide">
+        <nav class="slide__nav wow fadeIn slow">
+          <ul class="slide__list">
+            <li class="slide__item"><a href="#">Главная</a></li>
+            <li class="slide__item"><a href="#">О нас</a></li>
+            <li class="slide__item"><a href="#">Наши клиенты</a></li>
+            <li class="slide__item"><a href="#">Виды роликов</a></li>
+            <li class="slide__item"><a href="#">Портфолио</a></li>
+            <li class="slide__item"><a href="#">Цены</a></li>
+            <li class="slide__item"><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="slide__wrap">
+          <h1 class="slide__heading">Beam Light</h1>
+          <h2 class="slide__subheading">Создание видео-роликов и проведение съемки </h2>
+          <p class="slide__text">для решения маркетинговых , имиджевых и презентационных задач</p>
+          <div class="slide__video-wrap">
+            <span class="slide__offer">Посмотрите короткое видео о нашей команде</span>
+            <img src="./image/arrow.png" alt="Стрелка" class="slide__arrow wow pulse infinite">
+            <a href="" class="slide__btn wow swing slow infinite">смотреть видео</a>
+          </div>
+          <span class="slide__offer slide__offer_pt">Листайте вниз, чтобы узнать больше</span>
+          <img src="./image/mouse.png" alt="mouse" class="slide__mouse wow flash slow infinite">
+        </div>
+      </section>
+      <section class="offers">
+        <h2 class="offers__heading wow slow fadeIn">Какие задачи мы решаем</h2>
+        <div class="offers__line wow slow fadeIn"></div>
+        <p class="offers__text wow slow fadeIn">Список наших услуг не ограничивается только видами работ,
+          представленными ниже. Большой
+          опыт всех членов команды позволяет нам реализовывать любые ваши идеи. Обучающий фильм, кино трейлер, видео
+          отзыв, рекламное видео для кинотеатра – обратитесь к нам, и мы найдём решение ваших задач.</p>
+        <div class="offers__list ">
+          <div class="offers__item wow bounceInDown">
+            <img src="./image/1.png" alt="" class="offers__img">
+            <h3 class="offers__item-heading">Рекламные видеоролики о товарах и услугах</h3>
+            <p class="offers__item-text">Основная задача ролика проста – продать продукт. Для этого нужно убедить
+              зрителя в полезности, эффективности товара/услуги, продемонстрировать его качества.
+            </p>
+          </div>
+          <div class="offers__item wow bounceInDown delay-500ms">
+            <img src="./image/2.png" alt="" class="offers__img">
+            <h3 class="offers__item-heading">Рекламные видеоролики о товарах и услугах</h3>
+            <p class="offers__item-text">Основная задача ролика проста – продать продукт. Для этого нужно убедить
+              зрителя в полезности, эффективности товара/услуги, продемонстрировать его качества.
+            </p>
+          </div>
+          <div class="offers__item wow bounceInDown delay-1s">
+            <img src="./image/3.png" alt="" class="offers__img ">
+            <h3 class="offers__item-heading">Рекламные видеоролики о товарах и услугах</h3>
+            <p class="offers__item-text">Основная задача ролика проста – продать продукт. Для этого нужно убедить
+              зрителя в полезности, эффективности товара/услуги, продемонстрировать его качества.
+            </p>
+          </div>
+          <div class="offers__item wow bounceInDown delay-1500ms">
+            <img src="./image/4.png" alt="" class="offers__img">
+            <h3 class="offers__item-heading">Рекламные видеоролики о товарах и услугах</h3>
+            <p class="offers__item-text">Основная задача ролика проста – продать продукт. Для этого нужно убедить
+              зрителя в полезности, эффективности товара/услуги, продемонстрировать его качества.
+            </p>
+          </div>
 
-		<div class="container">
-
-			<section id="one">
-				<h2>При наведении на изображения всплывает описание и кнопка "Посмотреть". Выбрать эффект из готовых библиотек,
-					либо сверстать свои эффекты</h2>
-				<div class="image image-one">
-					<div class="wrap">
-						<p class="desc">Краткое описание картинки</p>
-						<a href="./img/1.jpg" class="view">Посмотреть</a>
-					</div>
-				</div>
-				<div class="image image-two">
-					<div class="wrap">
-						<p class="desc">Краткое описание картинки</p>
-						<a href="./img/2.jpg" class="view">Посмотреть</a>
-					</div>
-				</div>
-				<div class="image image-three">
-					<div class="wrap">
-						<p class="desc">Краткое описание картинки</p>
-						<a href="./img/3.jpg" class="view">Посмотреть</a>
-					</div>
-				</div>
-				<div class="image image-four">
-					<div class="wrap">
-						<p class="desc">Краткое описание картинки</p>
-						<a href="./img/4.jpg" class="view">Посмотреть</a>
-					</div>
-				</div>
-			</section>
-		</div>
-
-	</body>
+        </div>
+      </section>
+    </div>
+    <script src="./js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
 
 </html>
